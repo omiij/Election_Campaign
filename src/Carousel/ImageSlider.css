@@ -1,0 +1,70 @@
+.slider {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 106, 56);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+/* .image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+} */
+.image h1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+}
+/* '\201c' '\201d'; */
+.image::before {
+  content: "\201C";
+  font-size: 50px;
+  color: rgb(119, 0, 255);
+  font-weight: bold;
+}
+
+.image::after {
+  content: "\201D";
+  font-size: 50px;
+  color: rgb(119, 0, 255);
+  font-weight: bold;
+}
+#Overflow {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.slide-active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
