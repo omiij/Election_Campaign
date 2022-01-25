@@ -9,19 +9,25 @@ export const Menuitems = [
     url: "/meet",
     cName: "nav-links",
   },
-  {
-    tittle: "Progress",
-    url: "/progress",
-    cName: "nav-links",
-  },
-  {
-    tittle: "News",
-    url: "#",
-    cName: "nav-links",
-  },
-  {
-    tittle: "Sign Up",
-    url: "#",
-    cName: "nav-links-mobile",
-  },
+  // {
+  //   tittle: "Progress",
+  //   url: "/progress",
+  //   cName: "nav-links",
+  // },
+  // {
+  //   tittle: "News",
+  //   url: "#news",
+  //   cName: "nav-links",
+  // },
+  // {
+  //   tittle: "Progress",
+  //   url: "/progress",
+  //   cName: "nav-links-mobile",
+  // },
 ];
+
+// {
+//   tittle: "Sign Up",
+//   url: "#",
+//   cName: "nav-links-mobile",
+// },

@@ -36,3 +36,9 @@
   font-size: 20px;
   color: #fff;
 }
+.Progress_link {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}

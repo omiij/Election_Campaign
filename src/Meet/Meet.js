@@ -11,7 +11,7 @@ function Meet() {
           controls={true}
           loop={true}
           className="player"
-          width="50vh"
+          autoPlay
         />
       </div>
       <div className="MeetContent">
@@ -30,7 +30,6 @@ function Meet() {
           धीरे धीरे भाजपा में सचिव के पद पर पहुँचे।
         </p>
       </div>
-      
     </div>
   );
 }

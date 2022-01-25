@@ -17,7 +17,10 @@ export const Button = ({ type, onclick, buttonStyle, buttonSize }) => {
       onClick={onclick}
       type={type}
     >
-      Events
+      <a href="/progress" className="Progress_link">
+        {" "}
+        Progess
+      </a>
     </button>
   );
 };

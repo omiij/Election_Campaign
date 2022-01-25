@@ -1,17 +1,18 @@
 import React, { useState, useEffect, useRef } from "react";
-import { SliderData } from "../All_Data/All_DATA";
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
-import "./ImageSlider.css";
-function ImageSlider({ slides }) {
+import { SliderDataHome } from "../All_Data/All_DATA";
+import "../Home/Home.css";
+
+import "../Home/Home.css";
+function Home({ slidesHome }) {
   const [current, setCurrent] = useState(0);
-  const Length = slides.length;
+  const Length = slidesHome.length;
   const timeout = useRef(null);
 
   useEffect(() => {
     const nextSlide = () => {
       setCurrent((current) => (current === Length - 1 ? 0 : current + 1));
     };
-    timeout.current = setTimeout(nextSlide, 4000);
+    timeout.current = setTimeout(nextSlide, 6000);
     return function () {
       if (timeout.current) {
         clearTimeout(timeout.current);
@@ -26,26 +27,27 @@ function ImageSlider({ slides }) {
     setCurrent(current === 0 ? Length - 1 : current - 1);
   };
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
+  if (!Array.isArray(slidesHome) || slidesHome.length <= 0) {
     return null;
   }
 
   return (
     <>
-      <section className="slider">
-        {/* <FaArrowAltCircleLeft className="left-arrow" onClick={nextSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={prevSlide} /> */}
-        {SliderData.map((slide, index) => {
+      <section className="sliderHome">
+        {SliderDataHome.map((slide, index) => {
           return (
             <div
-              className={index === current ? "slide-active" : "slide"}
+              className={index === current ? "slideHome-active" : "slideHome"}
               key={index}
             >
               {index === current && (
-                <h1 className="image" id="overflow">
-                  {" "}
-                  {slide.content}
-                </h1>
+                <img
+                  className="imageHome"
+                  id="overflowHome"
+                  src={slide.image}
+                  alt={slide.alt}
+                />
+
                 // <img src={slide.image} alt={slide.alt} className="image" />
               )}
             </div>
@@ -56,4 +58,4 @@ function ImageSlider({ slides }) {
   );
 }
 
-export default ImageSlider;
+export default Home;

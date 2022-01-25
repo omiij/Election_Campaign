@@ -4,9 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(167, 106, 56);
+  width: 75vw;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  color: white;
 }
 /* .image {
   width: 1000px;
@@ -17,24 +18,27 @@
   display: flex;
   flex-wrap: wrap;
   width: 75vw;
+  margin: 10px;
 }
 /* '\201c' '\201d'; */
 .image::before {
   content: "\201C";
   font-size: 50px;
-  color: rgb(119, 0, 255);
+  color: rgb(60, 101, 163);
   font-weight: bold;
 }
 
 .image::after {
   content: "\201D";
   font-size: 50px;
-  color: rgb(119, 0, 255);
+  color: rgb(60, 101, 163);
   font-weight: bold;
 }
-#Overflow {
+h1#Overflow.image {
   overflow-wrap: break-word;
   hyphens: auto;
+  width: 75%;
+  z-index: 0;
 }
 
 .right-arrow {
