@@ -35,9 +35,19 @@
   opacity: 0;
   transition-duration: 1s;
   width: 100vw;
+  height: auto;
 }
 .slidehome-active {
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+  height: auto;
 }
+/* .responsive {
+  max-width: 100%;
+  height: auto;
+}
+#overflowHome {
+  max-width: 100%;
+  height: auto;
+} */

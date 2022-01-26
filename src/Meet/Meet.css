@@ -1,29 +1,94 @@
 .meetMain-container {
   display: flex;
-  margin: 20px;
-  background-color: grey;
-}
 
+  margin: 20px;
+  background-color: rgb(177, 94, 47);
+  color: white;
+}
+.introContent {
+  display: flex;
+}
 .MeetContent {
   margin: 10px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: auto;
 }
 .MeetContent h1,
 h3,
 p {
   text-align: start;
+  font-size: 1.7rem;
+}
+.videoPlayer {
+  width: 150%;
+  justify-content: center;
+  align-content: center;
 }
 .player {
-  width: 100%;
+  width: 90%;
+  height: 50vh;
+  margin: 10px;
 }
 @media screen and (max-width: 960px) {
   .meetMain-container {
     display: flex;
     flex-direction: column;
     margin: 20px;
-    background-color: grey;
   }
-  /* .player {
-    width: 250px;
-    height: 150px;
-  } */
+  .videoPlayer {
+    width: auto;
+    justify-content: center;
+    align-content: center;
+  }
+  .player {
+    width: 90%;
+    height: 50vh;
+    margin: 10px;
+  }
+  .MeetContent h1,
+  h3,
+  p {
+    text-align: center;
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 420px) {
+  .videoPlayer {
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .player {
+    width: 90%;
+    height: 35vh;
+    margin: 10px;
+  }
+  .MeetContent h1,
+  h3,
+  p {
+    font-size: medium;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .videoPlayer {
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .player {
+    width: 90%;
+    height: 40vh;
+    margin: 10px;
+  }
+  .MeetContent h1,
+  h3,
+  p {
+    text-align: center;
+  }
 }

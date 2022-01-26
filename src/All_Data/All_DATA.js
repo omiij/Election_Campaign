@@ -133,11 +133,16 @@ export let SliderData = [
 
 //Footer Data
 export const FooterData = [
-  { url: "/", CaName: "Facebook", Cname: "fab fa-facebook" },
-  { url: "/", CaName: "Google", Cname: "fab fa-google-plus-g" },
+  {
+    url: "https://www.facebook.com/mahantdiliprawat/",
+    CaName: "Facebook",
+    Cname: "fab fa-facebook",
+  },
+
+  { url: "/", CaName: "Google", Cname: "fas fa-envelope" },
   { url: "/", CaName: "Twitter", Cname: "fab fa-twitter" },
-  { url: "/", CaName: "Linked", Cname: "fab fa-linkedin" },
-  { url: "/", CaName: "Pint", Cname: "fab fa-pinterest" },
+  // { url: "/", CaName: "Linked", Cname: "fab fa-linkedin" },
+  // { url: "/", CaName: "Pint", Cname: "fab fa-pinterest" },
   { url: "/", CaName: "Insta", Cname: "fab fa-instagram" },
 ];
 //Footer

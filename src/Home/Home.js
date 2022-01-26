@@ -12,7 +12,7 @@ function Home({ slidesHome }) {
     const nextSlide = () => {
       setCurrent((current) => (current === Length - 1 ? 0 : current + 1));
     };
-    timeout.current = setTimeout(nextSlide, 6000);
+    timeout.current = setTimeout(nextSlide, 4000);
     return function () {
       if (timeout.current) {
         clearTimeout(timeout.current);

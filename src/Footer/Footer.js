@@ -7,7 +7,6 @@ function Copyright() {
     <>
       <div className="footer-copyright">
         <i className="far fa-copyright" /> 2022 Copyright:
-        <a href="/"> Political_Campaign.com</a>
       </div>
     </>
   );
