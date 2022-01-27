@@ -6,7 +6,7 @@ function Copyright() {
   return (
     <>
       <div className="footer-copyright">
-        <i className="far fa-copyright" /> 2022 Copyright:
+        <i className="far fa-copyright" /> 2022
       </div>
     </>
   );

@@ -1,4 +1,6 @@
 import College from "../Images_Data/College.jpg";
+import Mahant from "../Images_Data/mahant3.png";
+import Mahant1 from "../Images_Data/mahant5.jpg";
 import Image_two from "../Images_Data/Image_two.jpg";
 import Image_three from "../Images_Data/Image_three.jpg";
 import Image_Four from "../Images_Data/Image_Four.jpg";
@@ -118,11 +120,11 @@ export default WorkData;
 export let SliderData = [
   {
     content:
-      "खुद पर काबु रखना एक परिपक्व इंसान की निशानी है; वक्त से पहले खुद पर काबु खो देना अपरिपक्वता की पहचान है।",
+      "पद भाग्य से मिल सकता है, परंतु प्रतिष्ठा केवल पुरुषार्थ से मिलता है।",
   },
   {
     content:
-      "उड़ने में बुराई नहीं है, आप भी उड़ें..लेकिन उतना ही जहाँ से जमीन साफ़ दिखाई देती हो।",
+      "सुख और दुख बराबर मिलते है, बस निर्णय अपने करना है की पहले क्या भोगना है।",
   },
   {
     content: "संसार में मनुष्य एकमात्र प्राणी है जिसका जहर उसके शब्दों में है।",
@@ -139,11 +141,11 @@ export const FooterData = [
     Cname: "fab fa-facebook",
   },
 
-  { url: "/", CaName: "Google", Cname: "fas fa-envelope" },
-  { url: "/", CaName: "Twitter", Cname: "fab fa-twitter" },
+  // { url: "/", CaName: "Google", Cname: "fas fa-envelope" },
+  { url: "https://twitter.com/MahantDilipRwt", CaName: "Twitter", Cname: "fab fa-twitter" },
   // { url: "/", CaName: "Linked", Cname: "fab fa-linkedin" },
   // { url: "/", CaName: "Pint", Cname: "fab fa-pinterest" },
-  { url: "/", CaName: "Insta", Cname: "fab fa-instagram" },
+  { url: "https://www.instagram.com/mahantdiliprwt/", CaName: "Insta", Cname: "fab fa-instagram" },
 ];
 //Footer
 
@@ -152,15 +154,12 @@ export const SliderDataHome = [
   {
     title:
       " क्षेत्र के विकास एवं प्रगति हेतु हम संकल्पित है। सबका साथ, सबका विकास।।",
-    image:
-      "https://th.bing.com/th/id/R.6afc61b50aabe45a2e6c68eae2c217ba?rik=L2W0YWncfjZBVA&riu=http%3a%2f%2fwww.shutterstock.com%2fblog%2fwp-content%2fuploads%2fsites%2f5%2f2016%2f03%2ffall-trees-road-1.jpg&ehk=KA%2bzFrmYoWsdK4k7v%2fgfNkd1T2rdnNtpF5ICdLIxAeM%3d&risl=&pid=ImgRaw&r=0",
-    alt: "Datta",
+    image:Mahant1,
   },
   {
     title:
       " क्षेत्र के विकास एवं प्रगति हेतु हम संकल्पित है। सबका साथ, सबका विकास।।",
-    image:
-      "https://th.bing.com/th/id/OIP.NtZPdeywgeS2lejDwmdRwQHaE8?w=283&h=189&c=7&r=0&o=5&dpr=1.25&pid=1.7",
+    image:Mahant,
     alt: "Datta",
   },
 ];

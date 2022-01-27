@@ -19,7 +19,7 @@ export const Button = ({ type, onclick, buttonStyle, buttonSize }) => {
     >
       <a href="/progress" className="Progress_link">
         {" "}
-        Progess
+        Progress
       </a>
     </button>
   );

@@ -24,7 +24,7 @@ video {
   width: 250px;
   top: 350px;
   left: 50px;
-  color: white;
+  color: rgba(10, 47, 82, 0.925);
   margin: 10px;
   z-index: 1;
   display: flex;
