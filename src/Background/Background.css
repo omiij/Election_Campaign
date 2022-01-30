@@ -24,10 +24,17 @@ video {
   width: 250px;
   top: 350px;
   left: 50px;
-  color: rgba(10, 47, 82, 0.925);
+  color: black;
   margin: 10px;
   z-index: 1;
   display: flex;
+  background: linear-gradient(
+    90deg,
+    rgb(114, 165, 31) 0%,
+    rgb(252, 69, 63) 100%
+  );
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /*Fb PAGE*/
@@ -58,7 +65,7 @@ video {
     left: 50%;
     right: 50%;
     top: 600px;
-    color: aliceblue;
+
     margin: 10px;
     display: flex;
     text-align: center;
@@ -93,7 +100,7 @@ video {
     top: 450px;
     left: 70px;
     font-size: medium;
-    color: white;
+
     margin: 10px;
     z-index: 1;
     display: flex;
@@ -120,7 +127,7 @@ video {
     top: 400px;
     left: 70px;
     font-size: medium;
-    color: white;
+
     margin: 10px;
     z-index: 1;
     display: flex;
@@ -134,7 +141,6 @@ video {
     text-align: center;
     top: 150;
 
-    color: white;
     margin: 10px;
     z-index: 1;
     text-align: center;

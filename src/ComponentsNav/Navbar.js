@@ -14,17 +14,16 @@ function Navbar() {
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
           {/* <i className="fab fa-react" /> */}
+
           <a href="/">
-          <img
-            src="https://i.pinimg.com/originals/64/dc/63/64dc63ea80a7bad98cc2d44bfb11ef09.png"
-            alt="BJP"
-            className="bjpImage"
-          />
-          
+            <img
+              src="https://i.pinimg.com/originals/64/dc/63/64dc63ea80a7bad98cc2d44bfb11ef09.png"
+              alt="BJP"
+              className="bjpImage"
+            />
           </a>
         </h1>
-        
-        <div>Mahant Daleep Rawat</div>
+
         <div className="menu-icon" onClick={HandleClick}>
           <i className={state ? "fas fa-times" : "fas fa-bars"} />
         </div>

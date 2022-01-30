@@ -1,0 +1,75 @@
+/* .all_Content {
+  background-color: rgb(61, 83, 180);
+  z-index: -5;
+} */
+.meetMain-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 200px 200px;
+  margin: 20px;
+  grid-gap: 20px;
+  /* z-index: -1; */
+}
+.videoPlayer {
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  width: 100%;
+  overflow: hidden;
+  /* z-index: -1; */
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.col-xm-6 {
+  z-index: -4;
+}
+.political_Career {
+  display: grid;
+
+  background-image: url("https://www.trailhikers.in/wp-content/uploads/2020/03/CDYP-Slide003.jpg");
+  margin-top: 10px;
+  height: 350px;
+  /* z-index: -1; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.political_Career img {
+  max-width: 100%;
+  height: auto;
+}
+.political_Career li {
+  margin-left: 50px;
+  text-align: start;
+  color: yellow;
+}
+.political_Career h1 {
+  text-align: start;
+  margin-left: 50px;
+}
+@media screen and (max-width: 960px) {
+  .meetMain-container {
+    display: grid;
+    grid-template-columns: 100%;
+    /* z-index: -1; */
+  }
+  .videoPlayer {
+    position: sticky;
+    top: 120px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .political_Career h1 {
+    text-align: center;
+    /* z-index: -1; */
+    margin: 0;
+  }
+  .political_Career {
+    position: sticky;
+    top: 120px;
+    overflow: hidden;
+    /* z-index: -1; */
+  }
+}

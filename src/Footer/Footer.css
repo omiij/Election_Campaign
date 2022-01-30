@@ -25,7 +25,9 @@
   background-color: #00838f;
   text-align: center;
   color: white;
+  justify-content: center;
 }
 .fab {
   margin-top: 10px;
+  justify-content: center;
 }
